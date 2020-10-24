@@ -1,0 +1,401 @@
+html
+
+{
+
+scroll-behavior:smooth;
+
+}
+
+#container {
+
+height:700px;
+
+    margin: auto;
+
+}
+
+#home{  
+
+    height:760px;
+
+  background-image:url(falls.jpg);
+
+  background-size:cover;
+
+    
+
+}
+
+.bar {
+
+  display:flex;
+
+  align-items:center;  
+
+  justify-content:space-between;
+
+  background-color:#015668;
+
+  height:60px;
+
+}
+
+.bar h1{
+
+text-align:left;
+
+font-family: "Noir";
+
+src: url("Regular 800.otf");
+
+}
+
+.bar ul {
+
+  justify-content:flex-end;  
+
+  display:flex;
+
+  list-style: none;
+
+  margin: 0;
+
+  align-items:right;
+
+    flex:1;
+
+}
+
+.bar li {
+
+  display: inline;
+
+  margin-left: 10px;
+
+  margin-right: 10px;
+
+}
+
+.bar li a {
+
+    color:white;
+
+}
+
+h1{
+
+color:white;    
+
+text-align:center;
+
+}
+
+h2{
+
+color:white;    
+
+text-align:center;
+
+}
+
+.title{
+
+    height:380px; 
+
+}
+
+.intro{  
+
+    height:760px;
+
+  background-image:url(cloud.png), url(place.png) ;  
+
+    background-size:cover;  
+
+}
+
+.intro h1{
+
+  text-align: left ;
+
+  font-size:3rem ;
+
+  color: #FFD369 ;  
+
+}
+
+.intro h3{
+
+  text-align: left;
+
+  color: #ffd369;
+
+  opacity: 0.9;
+
+}
+
+.title{  
+
+    height:760px;
+
+    background-image:url(falls.png);
+
+    background-size:cover;
+
+}
+
+.box{
+
+  height:760px;
+
+  background-image:url(hills.png);
+
+  background-size:cover;
+
+}
+
+.intro3{
+
+  height:0px;
+
+  background-color:#015668;
+
+  text-align:center;
+
+}
+
+  .box1{
+
+    width: 300px;
+
+    text-align: justify;
+
+    background: rgba(52, 15, 185, 0.1);
+
+    box-shadow: 5px 10px;
+
+    padding: 10px;
+
+    margin: 1% auto 0;
+
+    font-size: 16px;
+
+    color: black;
+
+    left: 5%;
+
+    position: absolute;
+
+    }
+
+    .open1{
+
+    text-align: center;
+
+    }
+
+    .box2{
+
+    width: 300px;
+
+    text-align: justify;
+
+    background: rgba(52, 15, 185, 0.1);
+
+    box-shadow: 5px 10px;
+
+    padding: 10px;
+
+    margin: 1% auto 0;
+
+    font-size: 16px;
+
+    color: black;
+
+    left: 40%;
+
+    position: absolute;
+
+    }
+
+    .box3{
+
+    width: 300px;
+
+    text-align: justify;
+
+    background: rgba(52, 15, 185, 0.1);
+
+    box-shadow: 5px 10px;
+
+    margin: 1% auto 0;
+
+    font-size: 16px;
+
+    padding: 10px;
+
+    color: black;
+
+    right: 5%;
+
+    position: absolute;
+
+    }
+
+  }
+
+.contactp{  
+
+    height:760px;
+
+    background-color: #696969;
+
+    background-image:url(hills.png);
+
+     background-size:cover;  
+
+}
+
+.contactp button{
+
+  justify-content: center;
+
+  align-items: center;
+
+  background-color: #015668;
+
+  width: 150px;
+
+  height: 60px;
+
+  text-align: center;
+
+  color: white;
+
+  border-radius: 5px;
+
+}
+
+.contactp input{
+
+  width: 700px;
+
+  height: 450px;
+
+  text-align: justify;
+
+  padding: 20px;
+
+  margin: 1% auto 0;
+
+  font-size: 16px;
+
+  border: 1px apaque;
+
+  float: center;
+
+  background: rgba(0, 0, 0, 0.1);
+
+  border-radius: 10px;
+
+}
+
+.contactp {
+
+  height: 30px;
+
+  width: 250px;
+
+}
+
+.intro{
+
+  height:760px;
+
+  background-image:url(cloud.png),url(place.png);
+
+  background-size:cover;
+
+}
+
+.benefits{
+
+  height:760px;
+
+  background-color: white;
+
+}
+
+.taas{
+
+height:200px ;
+
+background-color:#015668;
+
+}
+
+.taas h3{
+
+  height:100px;
+
+  color: white;
+
+  text-align:center;
+
+}
+
+.taas h1{
+
+  height:100px;
+
+  
+
+  text-align:center;
+
+}
+
+.box input{
+
+  align-items: center;
+
+  text-align: center;
+
+  height:30px;
+
+  
+
+}
+
+.box {
+
+  align-items: center;
+
+  text-align: center;
+
+  color: #FFD369;
+
+}
+
+.box h1{
+
+  align-items: center;
+
+  text-align: center;
+
+  color: #FFD369;
+
+}
+
+.box button{
+
+  align-items: center;
+
+  text-align: center;
+
+  height:50px;
+
+  width: 100px;
+
+  background-color :#015668;
+
+  color:white;
